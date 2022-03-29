@@ -1,10 +1,10 @@
 _id: req_85c415a69946435695f7d931916150fe
 type: Request
 parentId: fld_e75194a84b9b4b92bb6b769cacbe52ea
-modified: 1648560148758
+modified: 1648568086698
 created: 1648469208295
-url: "{{URL}}/api/products/add"
-name: Get Product
+url: localhost:8081/api/products/add
+name: Post Product
 description: ""
 method: POST
 body:
@@ -12,9 +12,9 @@ body:
   text: >-
     {
 
-        "sku":"AKE45G",
+        "sku":"DFG78U",
         "type":"servicio",
-        "name":"iMac",
+        "name":"paula",
         "product_type":"base",
         "available_for_sale": 1,
         "available_for_purchase": 0,
@@ -25,7 +25,7 @@ body:
         "advance_payment_number": 4,
         "is_recurring_payments": 1,
         "price": 500000,
-        "slug": "iMac",
+        "slug": "Value",
         "frecuency_type": "hora",
         "frecuency_quantity": 3,
         "duration_value": 3,
