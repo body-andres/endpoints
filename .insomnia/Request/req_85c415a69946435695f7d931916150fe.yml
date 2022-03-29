@@ -1,7 +1,7 @@
 _id: req_85c415a69946435695f7d931916150fe
 type: Request
 parentId: fld_e75194a84b9b4b92bb6b769cacbe52ea
-modified: 1648503793699
+modified: 1648560148758
 created: 1648469208295
 url: "{{URL}}/api/products/add"
 name: Get Product
@@ -42,9 +42,7 @@ body:
             "short_description":"Plan Anual",
             "long_description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.",
             "url_horizontal_image":"www.kjhlkjfsahfd.dsfjkhflñkdfs",
-            "url_vertically_image":"www.kjhlkjfsahfd.dsfjkhflñkdfs",
-            "private_note":"nota privada",
-            "public_note":"nota publica"
+            "url_vertically_image":"www.kjhlkjfsahfd.dsfjkhflñkdfs"
         }
     }
 parameters: []
