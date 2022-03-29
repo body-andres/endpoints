@@ -1,0 +1,40 @@
+_id: req_d448b937b21845828808ab8c8f2b6b59
+type: Request
+parentId: fld_150976084941405d91e282f55451e36f
+modified: 1648589367503
+created: 1648569637086
+url: localhost:8081/api/product-prices/add
+name: Post Price
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id_category":[2,4,6],  
+    	"id_sub_segment":[1,2],
+      "id_channel":[1,6],
+      "id_product": 54,
+      "price": 500.000,
+      "apply_taxes": 1,
+    	"local_tax": 2,
+      "local_tax_type": 1,
+      "local_tax_2": null,
+      "local_tax_type_2": null,
+      "local_tax_3": null,
+      "local_tax_type_3": null
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_49b6f6ad0e9f46c1bc8ce972aa4982a0
+authentication: {}
+metaSortKey: -1648584495060.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,61 @@
+_id: req_3e88eae90a6f4190aeba2a139d210ea2
+type: Request
+parentId: fld_b28aaa07987d458f92a83d5de4bc53b3
+modified: 1648584465441
+created: 1648583111289
+url: localhost:8081/api/products/uuid/9a8bbb3f-d9e3-419e-ad4a-926f0f0a52a1
+name: Put Product
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    {
+
+        "sku":"JGK557",
+        "type":"servicio",
+        "name":"macbook",
+        "product_type":"base",
+        "available_for_sale": 1,
+        "available_for_purchase": 0,
+        "id_segment": 2,
+        "id_duration": 12,
+        "is_permanence": 1,
+        "time_of_permanence": 11,
+        "advance_payment_number": 4,
+        "is_recurring_payments": 1,
+        "price": 600000,
+        "slug": "pro pro",
+        "frecuency_type": "hora",
+        "frecuency_quantity": 4,
+        "duration_value": 4,
+
+        "accounting_configuration":{
+                "code_sales":"369",
+                "code_purchase":"369",
+                "export_accounting_code":"12345",
+                "code_import_purchase":"12345"
+        },
+       "product_detail":{
+            "service_agreements":"Acuerdos de Servicio",
+            "external_reference":"1",
+            "short_description":"Plan Anual",
+            "long_description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.",
+            "url_horizontal_image":"www.kjhlkjfsahfd.dsfjkhflñkdfs",
+            "url_vertically_image":"www.kjhlkjfsahfd.dsfjkhflñkdfs"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6dc5ae66c25a43e3b7e67f61b21da7a7
+authentication: {}
+metaSortKey: -1648584251804
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
