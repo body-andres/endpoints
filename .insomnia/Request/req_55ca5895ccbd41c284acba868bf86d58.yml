@@ -1,0 +1,21 @@
+_id: req_55ca5895ccbd41c284acba868bf86d58
+type: Request
+parentId: fld_150976084941405d91e282f55451e36f
+modified: 1648593434596
+created: 1648593308861
+url: localhost:8081/api/product-prices
+name: Get Price
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648593308861
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
