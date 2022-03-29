@@ -1,0 +1,21 @@
+_id: req_72503e0718434e54b899bace4f57e64f
+type: Request
+parentId: fld_150976084941405d91e282f55451e36f
+modified: 1648597619498
+created: 1648597583221
+url: localhost:8081/api/product-prices/id/4
+name: Delete Price
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648597583222
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,7 +1,7 @@
 _id: req_a381ed2203bc457281d2a18ef6c3d8e6
 type: Request
 parentId: fld_150976084941405d91e282f55451e36f
-modified: 1648593387201
+modified: 1648597549753
 created: 1648593293292
 url: localhost:8081/api/product-prices/uuid/ddbf3c9d-0d71-4f44-9621-5c4d522058ce
 name: Put Price
