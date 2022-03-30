@@ -1,7 +1,7 @@
 _id: req_d5fa6597d3454dc2ad06b585d1b7112b
 type: Request
 parentId: fld_e2fb0baabec3425e9da0777a958a0895
-modified: 1648604680939
+modified: 1648605885060
 created: 1648603334520
 url: localhost:8081/api/variants/add
 name: POST Variant
@@ -13,7 +13,7 @@ body:
      {
     	 "sku":"DFG78U",
         "type":"servicio",
-        "name":"paula",
+        "name":"julio",
         "product_type":"base",
         "available_for_sale": 1,
         "available_for_purchase": 0,

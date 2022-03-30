@@ -1,17 +1,17 @@
-_id: req_394de7112bbc4a2a943835e31cd18e9a
+_id: req_a5637757a14c45ac9beccf4ff4950658
 type: Request
-parentId: fld_b28aaa07987d458f92a83d5de4bc53b3
-modified: 1648605491031
-created: 1648583942337
-url: localhost:8081/api/products
-name: Get products
+parentId: fld_e2fb0baabec3425e9da0777a958a0895
+modified: 1648605662015
+created: 1648605305762
+url: localhost:8081/api/variants/list/ddbf3c9d-0d71-4f44-9621-5c4d522058ce
+name: GET Variants
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1648584251754
+metaSortKey: -1648605305763
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
