@@ -1,18 +1,17 @@
-_id: req_85c415a69946435695f7d931916150fe
+_id: req_d5fa6597d3454dc2ad06b585d1b7112b
 type: Request
-parentId: fld_b28aaa07987d458f92a83d5de4bc53b3
-modified: 1648603466385
-created: 1648469208295
-url: localhost:8081/api/products/add
-name: Post Product
+parentId: fld_e2fb0baabec3425e9da0777a958a0895
+modified: 1648604680939
+created: 1648603334520
+url: localhost:8081/api/variants/add
+name: POST Variant
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: >-
-    {
-
-        "sku":"DFG78U",
+  text: >-2
+     {
+    	 "sku":"DFG78U",
         "type":"servicio",
         "name":"paula",
         "product_type":"base",
@@ -29,6 +28,7 @@ body:
         "frecuency_type": "hora",
         "frecuency_quantity": 3,
         "duration_value": 3,
+    	  "parent_id": 53,
 
         "accounting_configuration":{
                 "code_sales":"369",
@@ -49,9 +49,9 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_f31cd46cb4594f9182e947c8f953f32e
+    id: pair_bd70004b2e5b447c9c4fd71199555f6d
 authentication: {}
-metaSortKey: -1648584251729
+metaSortKey: -1648603334520
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
