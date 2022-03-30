@@ -1,17 +1,17 @@
-_id: req_394de7112bbc4a2a943835e31cd18e9a
+_id: req_20459e91f338441687dfe721f239c365
 type: Request
-parentId: fld_b28aaa07987d458f92a83d5de4bc53b3
-modified: 1648650383716
-created: 1648583942337
-url: http://localhost:5500/api/products?search=asd
-name: Get products
+parentId: fld_ef640f2db7424be19f69e1da0e9ad079
+modified: 1648666756895
+created: 1648652437286
+url: "{{ _.url }}afiliates/document?type_document=1&document=1111111"
+name: Filter by document and type document
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1648584251754
+metaSortKey: -1648652437286
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
