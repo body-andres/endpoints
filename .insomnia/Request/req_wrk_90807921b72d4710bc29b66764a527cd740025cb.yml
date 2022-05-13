@@ -1,17 +1,17 @@
-_id: req_394de7112bbc4a2a943835e31cd18e9a
+_id: req_wrk_90807921b72d4710bc29b66764a527cd740025cb
 type: Request
-parentId: fld_b28aaa07987d458f92a83d5de4bc53b3
-modified: 1649694893479
-created: 1648583942337
-url: http://localhost:5500/api/products?search=me
-name: Get products
+parentId: fld_wrk_90807921b72d4710bc29b66764a527cd12dea96f
+modified: 1651963937410
+created: 1651963937410
+url: "{{ base_url }}/user/logout"
+name: Logs out current logged in user session
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1648584251754
+metaSortKey: -1651963937410
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

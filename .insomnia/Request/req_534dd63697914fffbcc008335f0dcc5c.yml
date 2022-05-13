@@ -1,0 +1,29 @@
+_id: req_534dd63697914fffbcc008335f0dcc5c
+type: Request
+parentId: fld_6b78e161bca24b5b865569b29a50ff5b
+modified: 1651160655060
+created: 1649521532196
+url: https://pruebas.estupendo.com.co/api/cargarDocumentoTxt
+name: Enviar facrura txt
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"txtEncode": "MDF8OTF8MnxOQ0NDMjExfDIwMjItMDQtMjh8MTA6MDM6MjZ8MjB8CjAyfDMxfDgzMDAzMzIwNnxJUFMgQ0VOVFJPIE1FRElDTyBERVBPUlRJVk8gQVRITEVUSUN8QVRITEVUSUN8MXwxMXxCb2dvdGEgREN8MTEwMDF8Qm9nb3RhfFRyYW5zdmVyc2FsIDc4SiAjIDQxRi0wNSBTdXJ8Q098Q29sb21iaWF8NDl8MjUwMDAxfDcwMjB8Ui05OS1QTnwwMT1JVkF8CjAzfDEzfDEwMDAyNTY1OTl8Sm9oYW4gQcOxb3xKb2hhbiBBw7FvfDF8MTF8Qm9nb3RhIERDfDExMDAxfEJvZ290YXx8Q098Q29sb21iaWF8NDl8am9oYW55ZWFyQHBydWViYS5jb218MzIxOTg3NjU0M3wxMTAxMTF8Ui05OS1QTnxaWiA9IG5vIGNhdXNhfAoxMHwwMXwyNTAwMDAuMDB8MC4wMHwwLjAwfDEuMDB8TklVfDAuMDAKMTF8MjUwMDAwLjAwfDAuMDB8MjUwMDAwLjAwfDI1MDAwMC4wMHwwLjAwfDAuMDB8MC4wMHxDT1AKMTJ8MXw4OTZ8ODk2fEVsaXRlIEdvbGR8MXwxfE5JVXwyNTAwMDAuMDB8MDF8MjUwMDAwLjAwfEVsaXRlIEdvbGR8MHwwfDB8QVRITEVUSUN8MjAyMgoxM3wxfDAxfDAuMHwwLjAwfDAuMDB8MS4wMHwwMHwwMAoxNHwxfDF8RmFsc2V8RGVzY3VlbnRvfDAuMDB8MC4wMHwyNTAwMDAuMDB8CjE3fFNFVFQ2NTV8MDF8MjAyMi0wNC0yOHxQcnVlYmEKMTl8MXw0N3wyMDIyLTEyLTExfA=="
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_94d61a11c4a9462bb01ece6be8d9aba1
+authentication: {}
+metaSortKey: -1649521532196
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

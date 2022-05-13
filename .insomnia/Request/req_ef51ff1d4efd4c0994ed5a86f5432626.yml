@@ -1,0 +1,41 @@
+_id: req_ef51ff1d4efd4c0994ed5a86f5432626
+type: Request
+parentId: fld_fd3693b983f146678699db09bb7d68ee
+modified: 1652100899900
+created: 1651938441639
+url: "{{ _.url }}gp"
+name: Generate JSON
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "integracion_gp",
+    	"password": "OTIXOKP20LSI",
+    	"id_invoice": 1379
+    }
+parameters: []
+headers:
+  - id: pair_40a132f33ca048a9986a4fa0ce2bf163
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_578995d3333c4d209266b422964a9312
+    name: x-bodytech-brand
+    value: "2"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_f48e3e620db043eeb2f0efb0d29531c1
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1651938441639
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

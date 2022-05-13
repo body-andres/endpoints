@@ -1,0 +1,40 @@
+_id: req_34c7eb17b7a84ab0b36e12f620b0cc1d
+type: Request
+parentId: fld_3547e3a8ad6d456082ebf89bf957b048
+modified: 1652190755674
+created: 1651097154556
+url: "{{ _.url }}invoices/generate-note-credict"
+name: Generate note credict DIAN
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id_invoice":1397,
+    	"note":"Prueba"
+    }
+parameters: []
+headers:
+  - id: pair_51468d02a7654213a7f7c6ca4a3d7189
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_c016e088f8324ba8b5870e0d688dc6b5
+    name: x-bodytech-brand
+    value: "2"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_38a66d12a4244287840730e229376003
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1651097154556
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

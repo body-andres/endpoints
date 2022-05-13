@@ -1,17 +1,17 @@
-_id: req_394de7112bbc4a2a943835e31cd18e9a
+_id: req_94973c2ac91d4e24a07b5ea2c214ec9b
 type: Request
-parentId: fld_b28aaa07987d458f92a83d5de4bc53b3
-modified: 1649694893479
-created: 1648583942337
-url: http://localhost:5500/api/products?search=me
-name: Get products
+parentId: fld_3547e3a8ad6d456082ebf89bf957b048
+modified: 1649426714895
+created: 1649426684501
+url: "{{ _.url }}invoice/generate-invoice-estupendo"
+name: Generate Invoice Electronic
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1648584251754
+metaSortKey: -1649426684501
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

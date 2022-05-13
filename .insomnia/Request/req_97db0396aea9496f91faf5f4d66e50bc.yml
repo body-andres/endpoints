@@ -1,0 +1,46 @@
+_id: req_97db0396aea9496f91faf5f4d66e50bc
+type: Request
+parentId: fld_0a8b4211bada4f42a892758de438086d
+modified: 1652112630350
+created: 1651522526427
+url: "{{ _.url }}payments/add-card"
+name: Test
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"customer_id": "2",
+    	"name": "11",
+    	"expiration_month": "11",
+    	"security_code": "123",
+    	"expiration_year": "2025",
+    	"number_document": "1004280446",
+    	"type_document": "CC",
+    	"card_number": "4009 1753 3280 6176"
+    }
+parameters: []
+headers:
+  - id: pair_e898febde7714bf991edd0830f275b3b
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_6ead98facc024296aa63282b6609d573
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_e9174181ee944930bd2bafa05e556b84
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1651522526427
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

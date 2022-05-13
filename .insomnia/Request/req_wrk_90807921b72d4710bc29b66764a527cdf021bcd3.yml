@@ -1,17 +1,17 @@
-_id: req_a5637757a14c45ac9beccf4ff4950658
+_id: req_wrk_90807921b72d4710bc29b66764a527cdf021bcd3
 type: Request
-parentId: fld_e2fb0baabec3425e9da0777a958a0895
-modified: 1648605662015
-created: 1648605305762
-url: localhost:8081/api/variants/list/ddbf3c9d-0d71-4f44-9621-5c4d522058ce
-name: GET Variants
+parentId: fld_wrk_90807921b72d4710bc29b66764a527cd3a21295d
+modified: 1651963937413
+created: 1651963937413
+url: "{{ base_url }}/store/order/{{ orderId }}"
+name: Find purchase order by ID
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1648605305763
+metaSortKey: -1651963937413
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,36 @@
+_id: req_7bf0088e45d547d08df72bb023b7392d
+type: Request
+parentId: fld_0a8b4211bada4f42a892758de438086d
+modified: 1651677029398
+created: 1651613850979
+url: "{{ _.url }}payments/add-client"
+name: Add client
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3124b6aeaa2f4509ba8718f8643af969
+  - id: pair_bdfe34a7d4444daeb978612c666fc126
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_14e94c8eb54049f1a2e36564cdd7f482
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1651613850979
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

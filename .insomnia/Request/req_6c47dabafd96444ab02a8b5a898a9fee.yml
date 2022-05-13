@@ -1,0 +1,56 @@
+_id: req_6c47dabafd96444ab02a8b5a898a9fee
+type: Request
+parentId: fld_01bfdd7492eb47c5b4f8e7dad3a8c5bf
+modified: 1652386203573
+created: 1648672732966
+url: "{{ _.url }}budget"
+name: Add
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id_lead": null,
+    	"id_costumer": null,
+    	"id_member": 38,
+    	"id_budget": null,
+    	"id_campaing": null,
+    	"id_category": 12,
+    	"id_channel": 18,
+    	"id_source": null,
+    	"id_sub_segment": 85,
+    	"id_deal":null,
+    	"id_venue": 140,
+    	"products": [
+    		{
+    			"id": 1372,
+    			"uuid": "57d0e489-d0e9-4527-b441-1af1acb83402",
+    			"name": "VIP MES",
+    			"id_price": 1162,
+    			"price": 599000,
+    			"promotion": null
+    		}
+    	],
+    	"user_assigne": null
+    }
+parameters: []
+headers:
+  - name: x-bodytech-organization
+    value: "1"
+    id: pair_227e5e19250946778717350cba8d40cb
+  - id: pair_273d25745b704786a5d5527533dbc4e8
+    name: x-bodytech-brand
+    value: "2"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1648672732966
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

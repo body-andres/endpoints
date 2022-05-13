@@ -1,0 +1,31 @@
+_id: req_3d7a655d8a124bda82f3c6df8ecbb3a9
+type: Request
+parentId: fld_6b78e161bca24b5b865569b29a50ff5b
+modified: 1651964819071
+created: 1649794213077
+url: https://pruebas.estupendo.com.co/api/consultarEstadoDocumento
+name: Consultar estado de documento
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "nit": "830033206",
+    "tipo_documento": "02",
+    "numeral": "NTCC761"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4e49ec32634f4c31aa8e2686a36f5515
+authentication: {}
+metaSortKey: -1649794213077
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

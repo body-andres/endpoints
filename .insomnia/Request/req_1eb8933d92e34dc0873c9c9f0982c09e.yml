@@ -1,0 +1,81 @@
+_id: req_1eb8933d92e34dc0873c9c9f0982c09e
+type: Request
+parentId: fld_3547e3a8ad6d456082ebf89bf957b048
+modified: 1652386302633
+created: 1648739357890
+url: "{{ _.url }}invoice"
+name: Add
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id_budge": 1022,
+    	"id_costumer": null,
+    	"id_lead": null,
+    	"id_member": 38,
+    	"id_channel": 18,
+    	"id_sub_segment": 85,
+    	"id_source": null,
+    	"id_campaing": null,
+    	"id_category": 12,
+    	"id_venue": 140,
+    	"name_venue": "RESTREPO",
+    	"products": [
+    		{
+    			"leads_id": [],
+    			"customers_id": [],
+    			"menbers_id": [
+    				38
+    			],
+    			"id_price": 1162,
+    			"date_init": "2026-05-16"
+    		}
+    	],
+    	"code_promo": null,
+    	"sub_total": 599000,
+    	"total": 599000,
+    	"x_taexs": 0,
+    	"taxes": null,
+    	"user_assigne": null,
+    	"date_init": "2022-05-06",
+    	"selectCustomerForInvoice": {
+    		"client_id": 145,
+    		"id": 145,
+    		"client_name": "Luifer Almendrales",
+    		"type_afiliate": "lead"
+    	},
+    	"method_payment": [
+    		{
+    			"type_pay": 1,
+    			"slug": "credit",
+    			"name": "Tarjeta Crédito",
+    			"value": 238000
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0dec6c7d70bf42c3bb2c5c3c857006a9
+  - id: pair_593ab57f4d064564b12c76e0c9d888c0
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_9c1ea343d70c46349656da23eb9b3a2c
+    name: x-bodytech-brand
+    value: "2"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1648739357890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

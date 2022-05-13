@@ -1,27 +1,27 @@
-_id: req_20459e91f338441687dfe721f239c365
+_id: req_92dfcbdb6a8149e5a47230ad079b77dd
 type: Request
-parentId: fld_ef640f2db7424be19f69e1da0e9ad079
-modified: 1651537280297
-created: 1648652437286
-url: "{{ _.url }}afiliates/document?type_document=10&document=84091405"
-name: Filter by document and type document
+parentId: fld_e66fa4a5fe4240889ad5f3f957629045
+modified: 1651607756558
+created: 1651530833513
+url: "{{ _.url }}caracterization?limit=7&page=1"
+name: Listar
 description: ""
 method: GET
 body: {}
 parameters: []
 headers:
-  - id: pair_a99b3e5570104c7e95c281681b27cc3f
+  - id: pair_5e3e4b1fb63c417f89af5b91ab81cceb
     name: x-bodytech-organization
     value: "1"
     description: ""
-  - id: pair_d3b95da8a45f493fbb75fe35dc38ee8b
+  - id: pair_e215fc6201994b2e920309555fc178e3
     name: x-bodytech-brand
     value: "1"
     description: ""
 authentication:
   type: bearer
   token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
-metaSortKey: -1648652437286
+metaSortKey: -1651530833513
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

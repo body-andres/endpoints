@@ -1,0 +1,116 @@
+_id: req_7f21bc4fc9894553b0032f92548066fe
+type: Request
+parentId: fld_fd3693b983f146678699db09bb7d68ee
+modified: 1652100818086
+created: 1651940082476
+url: ""
+name: js
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"tipo_transaccion": "FACTURA",
+    	"docid": "BOL",
+    	"id_factura": "12345678901234567890",
+    	"fecha_factura": "2021-09-01",
+    	"fecha_vencimiento": "2021-09-05",
+    	"id_cliente": "1032440422",
+    	"id_clase": "CORPORATIVO",
+    	"tipo_doc_clte": "1",
+    	"naturaleza": "PERSONA JURIDICA",
+    	"primer_nombre": "PEPITO",
+    	"segundo_nombre": "JESUS",
+    	"primer_apellido": "PEREZ",
+    	"segundo_apellido": "PEREZ",
+    	"nombre_empresa": "LYL",
+    	"direccion": "BOGOTA",
+    	"telefono": "7235689",
+    	"celular": "3216598457",
+    	"correo": "PEPITO@GMAIL.COM",
+    	"ciudad": "BOGOTA",
+    	"cod_ciudad": "0011",
+    	"id_vendedor": "1",
+    	"vendedor": "JORGE VENDEDOR",
+    	"id_moneda": "CPL",
+    	"id_sede": "12201",
+    	"total_productos": 1200000.00,
+    	"total_descuentos": 0.0,
+    	"total_impuestos": 1900,
+    	"total_pagos": 11900.99,
+    	"giro_empresa": "1032440422",
+    	"rut_rep_legal": "87654321",
+    	"nombre_rep_legal": "JUAN PEREZ",
+    	"cod_doc_elec": "35",
+    	"detalles": [
+    		{
+    			"tipo_transaccion": "FACTURA",
+    			"docid": "BOL",
+    			"id_factura": "12345678901234567890",
+    			"id_item": 1,
+    			"id_sede": "12201",
+    			"id_art_gp": "HM-001",
+    			"cantidad": 1.0,
+    			"valor_unit": 1200000.0,
+    			"valor_total": 1488000.0,
+    			"valor_descuento_unitario": 0.0,
+    			"valor_descuento_total": 0.0,
+    			"cod_utilidad": "01010",
+    			"cod_ubicacion": "0566112201"
+    		}
+    	],
+    	"cod_detalle": "DETALLE",
+    	"diferido": true,
+    	"meses": 6,
+    	"virtual": false,
+    	"pagos": [
+    		{
+    			"tipo_transaccion": "FACTURA",
+    			"docid": "BOL",
+    			"id_factura": "12345678901234567890",
+    			"id_orden": 1,
+    			"id_medio_pago": "TARJETA",
+    			"valor_pago": 200000.0,
+    			"num_tarjeta": "1234567890123456789",
+    			"fecha_vcto_tarjeta": "2022-12-01",
+    			"num_autorizacion": "037",
+    			"numero_cheque": "123",
+    			"fecha_pago": "2021-09-01",
+    			"num_cuota": 1,
+    			"cod_banco": "1100",
+    			"cod_zona_banco": "1100",
+    			"rut_emisor": "123456789",
+    			"nombres_emisor": "PEPITO JESUS PEREZ PERZ",
+    			"cuenta_emisor": "123456789",
+    			"telefono_emisor": "3216549878",
+    			"ins_tipo_pago": 2,
+    			"chequera": null,
+    			"tarjeta": "MASTERCARD"
+    		}
+    	],
+    	"impuestos": [
+    		{
+    			"tipo_transaccion": "FACTURA",
+    			"docid": "BOL",
+    			"id_factura": "12345678901234567890",
+    			"id_impuesto": "IVABOL",
+    			"valor_base_imp": 1200000.0,
+    			"valor_impuesto": 288000.0
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_369701a85e094609a04b7ba78cec7ed7
+authentication: {}
+metaSortKey: -1651940082476
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
