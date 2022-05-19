@@ -1,0 +1,31 @@
+_id: req_36263a3d7bd54f49b2c9aa1ab413e96f
+type: Request
+parentId: fld_0340b081bad242f5b72f9d43b78dc166
+modified: 1652823749301
+created: 1652823667466
+url: "{{ _.url }}status-product/payments/member_id/1296617"
+name: List plan by member
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_3be2e6202a9e4bb9b9d72b027bb86605
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_3fab226a5ee74cb8aac932bd3d5b85a5
+    name: x-bodytech-brand
+    value: "2"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1652823667466
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

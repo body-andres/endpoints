@@ -1,7 +1,7 @@
 _id: req_1eb8933d92e34dc0873c9c9f0982c09e
 type: Request
 parentId: fld_3547e3a8ad6d456082ebf89bf957b048
-modified: 1652386302633
+modified: 1652914488540
 created: 1648739357890
 url: "{{ _.url }}invoice"
 name: Add
@@ -11,10 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"id_budge": 1022,
-    	"id_costumer": null,
-    	"id_lead": null,
-    	"id_member": 38,
+    	"id_budge": 1056,
     	"id_channel": 18,
     	"id_sub_segment": 85,
     	"id_source": null,
@@ -24,36 +21,41 @@ body:
     	"name_venue": "RESTREPO",
     	"products": [
     		{
-    			"leads_id": [],
-    			"customers_id": [],
-    			"menbers_id": [
-    				38
+    			"leads_id": [
+    				180
     			],
-    			"id_price": 1162,
-    			"date_init": "2026-05-16"
+    			"customers_id": [],
+    			"menbers_id": [],
+    			"id_price": 1164,
+    			"date_init": "2023-05-14"
+    		},
+    		{
+    			"leads_id": [
+    				182
+    			],
+    			"customers_id": [],
+    			"menbers_id": [],
+    			"id_price": 1164,
+    			"date_init": "2023-05-14"
     		}
     	],
+    	"sub_total": 20000,
+    	"total": 20000,
     	"code_promo": null,
-    	"sub_total": 599000,
-    	"total": 599000,
-    	"x_taexs": 0,
+    	"x_taexs": null,
     	"taxes": null,
-    	"user_assigne": null,
-    	"date_init": "2022-05-06",
-    	"selectCustomerForInvoice": {
-    		"client_id": 145,
-    		"id": 145,
-    		"client_name": "Luifer Almendrales",
-    		"type_afiliate": "lead"
-    	},
+    	"date_init": "2022-05-13",
     	"method_payment": [
     		{
-    			"type_pay": 1,
-    			"slug": "credit",
-    			"name": "Tarjeta Crédito",
-    			"value": 238000
+    			"type_pay": 3,
+    			"slug": "cash",
+    			"name": "Efectivo",
+    			"value": 20000
     		}
-    	]
+    	],
+    	"id_lead": 180,
+    	"id_costumer": null,
+    	"id_member": null
     }
 parameters: []
 headers:

@@ -1,0 +1,50 @@
+_id: req_02fe154733e24942968c9ae957a9d3f4
+type: Request
+parentId: fld_42b12054a2aa43bc9b8943f3d45bcada
+modified: 1652887777532
+created: 1652798398059
+url: "{{ _.url }}purse/avance-payment"
+name: Avance payment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"payments":[
+    		{
+    			"amount":20000,
+    			"payment_method_id":1,
+    			"payment_id":6002
+    		},
+    		{
+    			"amount":20000,
+    			"payment_method_id":1,
+    			"payment_id":6001
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_420acf9317e549db877083e14d25c6e7
+  - id: pair_f117f1dd00ff4e69863f84616d82f17e
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_e88931ee73be44a188d7cf074fd25ab9
+    name: x-bodytech-brand
+    value: "2"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1652798398059
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

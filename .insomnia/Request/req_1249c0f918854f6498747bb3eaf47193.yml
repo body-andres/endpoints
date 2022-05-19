@@ -1,0 +1,31 @@
+_id: req_1249c0f918854f6498747bb3eaf47193
+type: Request
+parentId: fld_0a8b4211bada4f42a892758de438086d
+modified: 1652720366938
+created: 1652719616922
+url: "{{ _.url }}payments/card-by-customer/2"
+name: Card by customer
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_57919682099448a8a10f2b28081d9d0c
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_bc545e33cd6c41c1a3ddf9b42abe7351
+    name: x-bodytech-brand
+    value: "2"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1652719616922
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

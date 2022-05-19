@@ -1,0 +1,42 @@
+_id: req_ea93b2358ae640a99cea149f388dfd2f
+type: Request
+parentId: fld_11868cc140f04968897d1689857f0705
+modified: 1652974321408
+created: 1652896761624
+url: "{{ _.url }}issues/process"
+name: Aplic issue
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"services_issue_type": 3,
+    	"document": 1000615887,
+    	"id_issues": 2,
+    	"category_id":14
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8325d44db67e4e49b41962245be29644
+  - id: pair_0d510afd7d4046509726eed308a91eee
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_9eb9593bd4ef4894872150b99858669e
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1652896761624
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

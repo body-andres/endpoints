@@ -1,0 +1,31 @@
+_id: req_7161e51343304b8d99df1eb9695bfa3c
+type: Request
+parentId: fld_42b12054a2aa43bc9b8943f3d45bcada
+modified: 1652814256510
+created: 1652458324546
+url: "{{ _.url_server }}purse/1245"
+name: "Get info "
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_4005b0ce26234c4a8b2acbca197d6083
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_8ec4cfe358d34b42a5c8c45b19f97aaa
+    name: x-bodytech-brand
+    value: "2"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1652458324547
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

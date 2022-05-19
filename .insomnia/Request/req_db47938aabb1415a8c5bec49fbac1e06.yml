@@ -1,37 +1,35 @@
-_id: req_ef51ff1d4efd4c0994ed5a86f5432626
+_id: req_db47938aabb1415a8c5bec49fbac1e06
 type: Request
-parentId: fld_fd3693b983f146678699db09bb7d68ee
-modified: 1652896794570
-created: 1651938441639
-url: "{{ _.url }}gp"
-name: Generate JSON
+parentId: fld_42b12054a2aa43bc9b8943f3d45bcada
+modified: 1652887097164
+created: 1652886881340
+url: "{{ _.url }}purse/condone-payment"
+name: Condone payment
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"username": "integracion_gp",
-    	"password": "OTIXOKP20LSI",
-    	"id_invoice": 1379
+    	"payment_id":5758
     }
 parameters: []
 headers:
-  - id: pair_40a132f33ca048a9986a4fa0ce2bf163
+  - name: Content-Type
+    value: application/json
+    id: pair_3d24f7527cc441b49af050b42db9c269
+  - id: pair_293a2974106845dd802024465dca9837
     name: x-bodytech-organization
     value: "1"
     description: ""
-  - id: pair_578995d3333c4d209266b422964a9312
+  - id: pair_d9a9a678bb924c62b5a1a1b429183082
     name: x-bodytech-brand
     value: "2"
     description: ""
-  - name: Content-Type
-    value: application/json
-    id: pair_f48e3e620db043eeb2f0efb0d29531c1
 authentication:
   type: bearer
   token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
-metaSortKey: -1651938441639
+metaSortKey: -1652886881340
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
